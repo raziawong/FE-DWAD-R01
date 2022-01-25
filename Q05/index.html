@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reservation Form</title>
+</head>
+<body>
+    <form>
+        <h1>Reservation</h1>
+        <p class="info">Please fill up the form below to reserve a table with ABC restaurant: </p>
+        <div>
+            <label for="fname">Name</label>
+            <input type="text" name="fname" id="fname">
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{8}">
+        </div>
+        <div>
+            <label for="pax">No. of Person Expected</label>
+            <input type="number" name="pax" id="pax">
+        </div>
+        <div>
+            <label for="timeslot">Preferred Time Slot</label>
+            <select name="timeslot" id="timeslot">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+            </select>
+        </div>
+        <div>
+            <p>Smoking Area?</p>
+            <input type="radio" name="area" id="smoking" value="smoking">Yes
+            <input type="radio" name="area" id="non-smoking" value="non-smoking">No
+        </div>
+        <div class="checkbox-fields">
+            <p>Types of Allergies (if any)</p>
+            <input type="checkbox" id="nuts" name="nuts" value="allergy_nuts">
+            <label for="nuts">Nuts</label>
+            <input type="checkbox" id="diary" name="diary" value="allergy_diary">
+            <label for="diary">Diary</label>
+            <input type="checkbox" id="seafood" name="seafood" value="allergy_seafood">
+            <label for="seafood">Seafood</label>
+            <input type="checkbox" id="wheat" name="wheat" value="allergy_wheat">
+            <label for="wheat">Wheat</label>
+            <input type="checkbox" id="soy" name="soy" value="allergy_soy">
+            <label for="soy">Soy</label>
+        </div>
+        <div>
+            <button type="submit" value="submit">Submit</button>
+            <button type="reset" value="cancel">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>

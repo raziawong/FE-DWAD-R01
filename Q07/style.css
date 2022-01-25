@@ -1,0 +1,19 @@
+div {
+    height: 1000px;
+}
+
+p {
+    padding: 10px;
+}
+
+#first {
+    background-color: pink;
+}
+
+#second {
+    background-color: violet;
+}
+
+#third {
+    background-color: red;
+}

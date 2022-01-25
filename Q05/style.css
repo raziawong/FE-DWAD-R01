@@ -1,0 +1,25 @@
+div {
+    padding: 10px 0px;
+}
+
+label {
+    display: block;
+}
+
+select {
+    width: 160px;
+    padding: 3px;
+}
+
+p {
+    padding: 0px 0px 3px;
+    margin: 0px;
+}
+
+p.info {
+    padding: 10px 0px;
+}
+
+.checkbox-fields label {
+    display: inline-block;
+}
